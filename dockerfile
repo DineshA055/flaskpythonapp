@@ -4,7 +4,7 @@ RUN apt-get update \
     && apt-get update \
     && apt-get install -y python3-pip /*
 
-COPY requirement.txt.
+COPY requirement.txt .
 
 RUN pip3 install flask
     
