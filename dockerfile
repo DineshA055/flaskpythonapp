@@ -10,4 +10,4 @@ RUN pip3 install flask
     
 COPY . .
 
-CMD["python","app.py"]
+CMD["python3","app.py"]
