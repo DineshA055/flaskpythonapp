@@ -1,2 +1,2 @@
-sudo install python3-pip
-sudo pip3 install flask
+install python3-pip
+pip3 install flask
